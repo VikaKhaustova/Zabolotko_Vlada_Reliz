@@ -7,28 +7,21 @@ body{
     width: 100%;        
 }
 header{
-    height: 121px;
     margin-top: 70px;
     width: 100%;
-    background: linear-gradient(168deg, #CB4747 0%, #FFD705 100%);
+    background: linear-gradient(92.09deg, #6D4D38 -6.62%, #C1DF8A 92.51%);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.pizza-one{
-    width: 318px;
-    height: 141px;
-    flex-shrink: 0;
-    margin-top: 5px;
+header h1{
+    font-family: "Ribeye", serif;
+    color: #FFFCD7;
+    font-size: 60px;
 }
 
-.pizza-two{
-    width: 380px;
-    height: 141px;
-    flex-shrink: 0;
-    margin-top: 5px;
-}
+
 
 .logo{
     color: #F00;
@@ -64,27 +57,23 @@ header{
     flex-wrap: wrap;
 }
 .call-butt{
-    background: linear-gradient(135deg, #F00 0%, #FFD705 98.44%);
     text-align: center;
     font-family: Roboto;
     font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     text-decoration: none;
     color: #FFFFFF;
     padding: 3% 10%;
     margin: 5% 5% 5% 0%;
-    border: 2px solid rgb(97, 0, 0);
-    box-shadow: 0 5px 0 0 rgb(97, 0, 0);
+    background: linear-gradient(93.54deg, #C1DF8A 0%, #6D4D38 98.44%);
+    border: 4px solid #FFFCD7;
+    border-radius: 1000px;
 }
 .call-butt:hover{
-    background: linear-gradient(135deg,  #FFD705 0%, #F00 98.44% );
-    border: 1px solid rgb(97, 0, 0);
+    box-shadow: 0 5px 5px grey;
     transition: 0.2s ease-out;
 }
 .menu-butt{
-   background: linear-gradient(135deg, #F00 0%, #FFD705 98.44%);
+   
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -92,43 +81,40 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-decoration: none;
-    border: 2px solid rgb(97, 0, 0);
+    text-decoration: none;  
     padding: 3% 10%;
     margin: 5% 5% 5% 0%;
-    position: relative;
-    box-shadow: 0 5px 0 0 rgb(97, 0, 0);
-   
+    background: linear-gradient(93.54deg, #6D4D38 0%, #C1DF8A 98.44%);
+    border: 3px solid #FFFCD7;
+    border-radius: 1000px;
+
 }
 .menu-butt:hover{
-    background: linear-gradient(135deg,  #FFD705 0%, #F00 98.44% );
-    color: #FFFFFF;
+     box-shadow: 0 5px 5px grey;
     transition: 0.2s ease-out;
 }
 
 .menu-butt:focus {
-    box-shadow: inset 0 5px 0 2px rgb(97, 0, 0);
+    box-shadow: inset 0 5px 0 2px rgb(0, 0, 0);
     color: black;
     top: 10px; 
     transition: 0.5s ease-out;
 }
 
 .call-butt:focus {
-    box-shadow: inset 0 5px 0 2px rgb(97, 0, 0);
+    box-shadow: inset 0 5px 0 2px rgb(0, 0, 0);
     color: black;
     top: 10px; 
     transition: 0.5s ease-out;
 }
 
-
 .menu{
-    position: relative;
+    
     width: 100%;
     padding-bottom: 170px;
     margin-bottom: 0;
-    left: 0px;
-    top:0;
-    background: linear-gradient(135deg, #F00 0%, #FFD705 100%);
+    background: linear-gradient(150.54deg, #C1DF8A 0%, #6D4D38 100%);
+    border-radius: 40px;
 }
 
 .menu h2{
@@ -147,6 +133,7 @@ header{
     margin-left: 20%;
     display: flex;
     flex-direction: column;
+    border-radius: 40px 0 0 40px;
 }
 .menu-div{
     position: relative;
@@ -177,7 +164,6 @@ header{
     line-height: normal;
 }
 .menu-text{
-   
     color: #000;
     font-family: Roboto;
     font-size: 43px;
@@ -186,46 +172,42 @@ header{
     line-height: normal;
 }
 
-.about{
-    position: relative;
-    width: 100%;
-    height: 777px;
-    left: 0px;
-    background: linear-gradient(135deg, #F00 0%, #FFD705 100%);
-    
+.about_us{
+    margin-top: 50px;
+    background: linear-gradient(150.54deg, #C1DF8A 0%, #6D4D38 100%);
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+   
 }
-.about-div{
-    width: 100%;
-    height: 70%;
-    background-image: url("folder/14.png");
-    margin-bottom: 60px;
-    background-size: cover;  
-}
-.about-div p{
-    position: absolute;
-    width: 60%;
-    height: 273px;
-    left: 87px;
-    font-size: 25px;
-    top: 187px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%;
-    color: #FFFFFF;
-    text-shadow: 1px 1px black;
-    -webkit-text-stroke: 1px #000000;
-}
-
-.about h2{
+.about_us h1{
     color: #FFF;
     font-family: Roboto;
-    font-size: 128px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-shadow:  10px 4px #FFD705;
     text-align: center;
-    margin-bottom: 10px;
+}
+.about-div{
+    width: 100%;
+    height: 910px;
+    background-image: url("folder/14.png");
+    margin-bottom: 60px;
+    background-size: cover;  
+}
+
+
+.about_us p{
+   width: 868px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 82px;
+    padding-top: 60px;
+    color: #000000;
 }
 
 footer{
@@ -233,14 +215,15 @@ footer{
     text-align: center;
     padding: 50px;
     justify-content: center;
-    background: linear-gradient(135deg, #F00 0%, #FFD705 100%);
+    background: linear-gradient(150.54deg, #C1DF8A 6.75%, #6D4D38 106.75%);
+    border-radius: 40px;
 }
 
 
 footer h2{
     color: #FFF;
     font-family: Roboto;
-    font-size: 120px;
+    font-size: 100px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
